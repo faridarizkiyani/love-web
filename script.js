@@ -128,10 +128,11 @@ function animate() {
     if (ex.life <= 0) explosions.splice(i, 1);
   });
 
-  drawCenterText("Zayna");
+  drawCenterText("Darel");
 
   requestAnimationFrame(animate);
 }
 
 animate();
+
 
